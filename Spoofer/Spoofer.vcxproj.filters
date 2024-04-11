@@ -16,6 +16,9 @@
     <Filter Include="Source Files\console">
       <UniqueIdentifier>{c6f6eae2-020f-4bb0-8df4-8c128db13853}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\UEFI">
+      <UniqueIdentifier>{5e865c67-993b-4a3d-a5e0-2c4635ece010}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="console.cpp">
       <Filter>Source Files\console</Filter>
     </ClCompile>
+    <ClCompile Include="UEFI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="console.h">
       <Filter>Source Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="UEFI.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
